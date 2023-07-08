@@ -1,0 +1,15 @@
+const calculator = {
+    calculate: function (a, b) {
+        console.log(a + b);
+        console.log(a - b);
+        console.log(a / b);
+        console.log(a ** b);
+    }
+//,안하면 작동안함 할때 오류난거 비쥬얼 스튜디오 코드에서 exeption ","알려줘서 고쳤음.
+//add,minus등 안만들고 calculate하나로 계산하는거 만들었음. 결과는 (a, b)의 값이 같으면 똑같음.
+//내생각엔 변수값 (a, b)의 값을 항상 다르게 하게 하기 위해서 그렇게 만든듯.
+}
+
+calculator.calculate(1, 2);
+console.log()
+//body={}
