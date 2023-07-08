@@ -1,0 +1,23 @@
+const calculator = {
+    add: function (a, b) {
+        console.log(a + b);
+    }
+    ,minus: function (a, b){
+        console.log(a - b);
+    }
+    ,divide: function (a, b) {
+        console.log(a / b);
+    }
+    ,powerof: function (a, b){
+        console.log(a ** b);
+    }
+//,안하면 작동안함 할때 오류난거 비쥬얼 스튜디오 코드에서 exeption ","알려줘서 고쳤음.
+
+}
+
+calculator.add(1, 2);
+calculator.minus(1, 2);
+calculator.divide(1, 2);
+calculator.powerof(1, 2);
+console.log()
+
